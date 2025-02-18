@@ -31,6 +31,15 @@ Niestety, ze względu na darmowość rozwiązania, część potencjalnych funkcj
 ## 4. Architektura (dla zainteresowanych)
 Architektura serverless, z Database-as-backend. Pozwoli to na statyczny hosting na GitHub pages. Baza danych pełni rolę database oraz back-endu jednocześnie. Nie mamy zatem kosztów utrzymania hostingu chmurowego.
 
+### Frontend
+Blazor WebAssembly - kompilowany do statycznych plików *HTML* + *JS*, zatem hosting statyczny jak najbardziej wchodzi tutaj w grę
+
+### Backend
+Brak, formę back-endu pełni Supabase
+
+### Baza danych
+Supabase - [link](https://supabase.com)
+
 ## 5. Analiza kosztów
 Generalnie, z aplikacji będzie korzystać mała ilość osób, zatem ruchu ani obciążenia wysokiego nie będzie. W połączeniu z darmowym hostingiem **prawdopodobnie** będzie to aplikacja darmowa. Dla porządku zamieszczam szczegóły. [Supabase/pricing - zakładka free](https://supabase.com/pricing).
 - Nielimitowane API (to bardziej dla mnie informacja)
